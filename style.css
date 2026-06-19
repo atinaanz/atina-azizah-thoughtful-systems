@@ -752,7 +752,7 @@ body {
    height: 72px;
    position: relative;
    overflow: hidden;
-   background: #4a3255;
+   background: #9f3476;
 }
 
 .detail-num {
@@ -991,7 +991,7 @@ body {
 }
 
 .fit-card {
-   background: #6d597c;
+   background: #ab5b8c;
    border: 0.5px solid #ede8f3;
    border-radius: 8px;
    padding: 12px;
