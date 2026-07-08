@@ -884,6 +884,12 @@ body {
    margin-top: 1px;
 }
 
+.step-text {
+   display: block;
+   text-align: left;
+   width: 100%;
+}
+
 .tool-row {
    display: flex;
    gap: 5px;
