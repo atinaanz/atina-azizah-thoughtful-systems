@@ -811,6 +811,10 @@ body {
    gap: 8px;
    margin-bottom: 4px;
 }
+/* Kelas baru untuk menggabungkan kolom 2 dan 3 */
+.meta-box-merged {
+   grid-column: span 2;
+}
 
 .meta-box {
    background: #faf8fc;
