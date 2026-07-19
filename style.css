@@ -118,6 +118,27 @@ body {
    display: flex;
    min-height: 680px;
 }
+/* === PHOTO === */
+/* Styling ketika elemen diisi oleh foto */
+/* Pastikan .has-photo ikut membulat penuh dan memotong sudut kotak foto */
+.has-photo {
+   width: 100%;
+   height: 100%;
+   border-radius: 50%;
+   overflow: hidden;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+/* Memastikan foto memenuhi lingkaran tanpa gepeng */
+.has-photo img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   display: block;
+}
+
 
 /* === SIDEBAR === */
 .sidebar {
